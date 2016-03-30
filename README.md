@@ -8,7 +8,7 @@
  * [xv6 source code reference] [XS]
  * [Official xv6] [OX]
  * [GDB commands] [GC]
- 
+ * [start with xv6] [SWX]
 
 
 ### login sledge
@@ -57,6 +57,7 @@ in the terminal.
 [XS]: <https://pdos.csail.mit.edu/6.828/2014/xv6/xv6-rev8.pdf>
 [OX]: <https://pdos.csail.mit.edu/6.828/2014/xv6.html>
 [GC]: <https://pdos.csail.mit.edu/6.828/2014/labguide.html>
+[SWX]: <https://pdos.csail.mit.edu/6.828/2014/labs/lab1/>
 [XV6T]: <https://www.youtube.com/watch?v=ktkAlbcoz7o> 
 [SYSC]: <https://www.youtube.com/watch?v=vR6z2QGcoo8&feature=youtu.be>
 [MDX]: <https://www.youtube.com/watch?v=2rAnCmXaOwo&ebc=ANyPxKpfkJea41eDHt0nTPlWIZnbD7ohhOUacMxlo09ixCvGQVdWiY7qguoMn951IXtTAcXi002enio4TN9TUx0iLC0STdhanw>
