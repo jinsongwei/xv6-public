@@ -26,7 +26,7 @@ $ ssh sjin010@sledge.cs.ucr.edu
 
 
 
-### Useful resources
+### Tutorials
 
  * [run xv6 & using gdb] [XV6T]   9 min 
 
