@@ -1,7 +1,7 @@
 # xv6 tutorial
 
 
-### resources
+## resources
  * [class website] [CW]
  * [lab website] [LW]
  * [xv6 BOOK] [XB]   Important! Please Read!!!
@@ -10,9 +10,10 @@
  * [GDB commands] [GC]
  * [start with xv6] [SWX]
 
+---
+## login sledge
 
-### login sledge
-
+open your terminal, type: 
 ```sh
 $ ssh your_cs_account@sledge.cs.ucr.edu 
 $ password:*
@@ -24,9 +25,9 @@ Example
 $ ssh sjin010@sledge.cs.ucr.edu
 ```
 
+---
 
-
-### Tutorials
+## Tutorials
 
  * [run xv6 & using gdb] [XV6T]   9 min 
 
@@ -49,7 +50,32 @@ in the terminal.
 
 
  
- * [xv6 syscalls] [SYSC]     more detail tutorial. (eg: how to create a user file, how syscall works.).
+ * [xv6 syscalls] [SYSC]   ---  more detail tutorial. (eg: how to create a user file, how syscall works.).
+ 
+---
+## Tips 
+
+#### How to exit xv6.
+ open another terminal, find the process PID of running QEMU
+```sh
+$ ps aux | less | grep uname
+```
+uname is your cs account. eg: sjin010
+
+Then kill that process
+
+```sh
+$ kill -9 PID
+```
+
+#### Best way to get xv6 source code
+```sh
+$ git clone https://github.com/guilleiguaran/xv6.git
+```
+
+---
+
+
  
 [CW]: <http://www.cs.ucr.edu/~nael/cs153/>
 [LW]: <http://www.cs.ucr.edu/~nael/cs153/labs/xv6.html>
