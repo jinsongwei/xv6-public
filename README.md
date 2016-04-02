@@ -8,8 +8,7 @@
  * [xv6 source code reference] [XS]
  * [Official xv6] [OX]
  * [GDB commands] [GC]
- * [start with xv6] [SWX]
-
+ * [Lab 0: PC booting] [LPC]
 ---
 ## login sledge
 
@@ -76,14 +75,13 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 ---
 
 
- 
+ [LPC]: <http://www.cs.ucr.edu/~nael/cs153/labs/lab0.html>
 [CW]: <http://www.cs.ucr.edu/~nael/cs153/>
 [LW]: <http://www.cs.ucr.edu/~nael/cs153/labs/xv6.html>
 [XB]: <https://pdos.csail.mit.edu/6.828/2014/xv6/book-rev8.pdf>
 [XS]: <https://pdos.csail.mit.edu/6.828/2014/xv6/xv6-rev8.pdf>
 [OX]: <https://pdos.csail.mit.edu/6.828/2014/xv6.html>
 [GC]: <https://pdos.csail.mit.edu/6.828/2014/labguide.html>
-[SWX]: <https://pdos.csail.mit.edu/6.828/2014/labs/lab1/>
 [XV6T]: <https://www.youtube.com/watch?v=ktkAlbcoz7o> 
 [SYSC]: <https://www.youtube.com/watch?v=vR6z2QGcoo8&feature=youtu.be>
 [MDX]: <https://www.youtube.com/watch?v=2rAnCmXaOwo&ebc=ANyPxKpfkJea41eDHt0nTPlWIZnbD7ohhOUacMxlo09ixCvGQVdWiY7qguoMn951IXtTAcXi002enio4TN9TUx0iLC0STdhanw>
