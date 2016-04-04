@@ -1,6 +1,6 @@
-## tutorial setup github version control
+## tutorial setup git version control
 
-If you would like to use git version control to work with your project with your partner or individual. Here is a brief tutorial to set up github.
+If you would like to use git version control to work on your project with your partner or individual. Here is a brief tutorial to set up github.
 
 First, you need to have a github account.
 Don't forget request a discount using UCR email.  https://education.github.com/
