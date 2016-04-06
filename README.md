@@ -67,6 +67,7 @@ in the terminal.
  
  * [xv6 syscalls] [SYSC]   ---  more detail tutorial. (eg: how to create a user file, how syscall works.).
  * [xv6 fork(), wait(), exec()] [FWE] --- play around with syscalls. 
+ * [xv6 scheduler] [XS]  --- nice explanation of scheduler part. 
  
 ---
 ## Tips 
@@ -106,3 +107,4 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [IS]: <https://www.youtube.com/watch?v=H4Z0S9ZbC0g&index=1&list=PL038BE01D3BAEFDB0>
 [QLAI]: <https://en.m.wikibooks.org/wiki/X86_Assembly/Other_Instructions>
 [FWE]: <https://www.youtube.com/watch?v=lp7tFNrO1K4&feature=youtu.be>
+[XS]: <https://www.youtube.com/watch?v=eYfeOT1QYmg&feature=youtu.be>
