@@ -1,3 +1,8 @@
+# Info:
+Office Hours: Thur: 1:00 - 3:00 pm.
+
+Room: WCH 110.  
+
 # xv6 tutorial
 
 
@@ -9,6 +14,11 @@
  * [Official xv6] [OX]
  * [GDB commands] [GC]
  * [Lab 0: PC booting] [LPC]
+    1. [Intro x86, stack] [IS] <nice video to introduce x86 architecture, assembly, and application>
+    2. [quick learn x86 assembly instructions] [QLAI]
+    3. Appendix A -- PC hardware  <xv6 book>
+    4. Appendix B -- The boot loader <xv6 book>
+    
  
 ---
 ## login sledge
@@ -88,4 +98,6 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [SYSC]: <https://www.youtube.com/watch?v=vR6z2QGcoo8&feature=youtu.be>
 [MDX]: <https://www.youtube.com/watch?v=2rAnCmXaOwo&ebc=ANyPxKpfkJea41eDHt0nTPlWIZnbD7ohhOUacMxlo09ixCvGQVdWiY7qguoMn951IXtTAcXi002enio4TN9TUx0iLC0STdhanw>
 [SUG]: <https://github.com/jinsongwei/xv6-public/blob/master/tutorials/git_control.md>
+[IS]: <https://www.youtube.com/watch?v=H4Z0S9ZbC0g&index=1&list=PL038BE01D3BAEFDB0>
+[QLAI]: <https://en.m.wikibooks.org/wiki/X86_Assembly/Other_Instructions>
  
