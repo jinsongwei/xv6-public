@@ -18,9 +18,12 @@ Room: WCH 110.
     2. [quick learn x86 assembly instructions] [QLAI]
     3. Appendix A -- PC hardware  <xv6 book>
     4. Appendix B -- The boot loader <xv6 book>
- * Lab 0.5  syscalls & scheduler 
+ * Lab 0.5  syscalls & scheduler (Don't need to turn in anything)
     1. implement a syscall int count(void) that counts number of syscall calls.
-    2. implement FIFO scheduler.
+        a. This syscall will return number of syscalls you called, from the begining of process started to the calling 'count()'.
+        b. First, you need to create a syscall. (related files: defs.h, syscall.h, syscall.c, sysfile.c sysproc.c, user.h, usys.S). If you don't know how to create one, find a syscall such as open(), and see how it created. 
+        c. Then, you need to find another
+    2. explain what policy of scheduler uses in xv6.
     3. Read the book chapter 1.
     
  
