@@ -43,8 +43,9 @@ $ ssh sjin010@sledge.cs.ucr.edu
 
 ## Tutorials
 
+ * [set up git version control] [SUG]
  * [run xv6 & using gdb] [XV6T]   9 min 
-
+ 
 In the tutorial, instead of typing gdb, you should type:
 ```sh
 $ gdb q -iex "set auto-load safe-path /home/csgrads/sjin010/xv6-public/"
@@ -62,10 +63,10 @@ $pwd
 ```
 in the terminal.
 
-
+#### nice discussion of xv6
  
  * [xv6 syscalls] [SYSC]   ---  more detail tutorial. (eg: how to create a user file, how syscall works.).
- * [set up git version control] [SUG]
+ * [xv6 fork(), wait(), exec()] [FWE] --- play around with syscalls. 
  
 ---
 ## Tips 
@@ -104,4 +105,4 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [SUG]: <https://github.com/jinsongwei/xv6-public/blob/master/tutorials/git_control.md>
 [IS]: <https://www.youtube.com/watch?v=H4Z0S9ZbC0g&index=1&list=PL038BE01D3BAEFDB0>
 [QLAI]: <https://en.m.wikibooks.org/wiki/X86_Assembly/Other_Instructions>
- 
+[FWE]: <https://www.youtube.com/watch?v=lp7tFNrO1K4&feature=youtu.be>
