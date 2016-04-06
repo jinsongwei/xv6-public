@@ -14,7 +14,7 @@ Room: WCH 110.
  * [Official xv6] [OX]
  * [GDB commands] [GC]
  * [Lab 0: PC booting] [LPC]
-    1. [Intro x86, stack] [IS] <nice video to introduce x86 architecture, assembly, and application>
+    1. [Intro x86, stack] [IS] -- nice video to introduce x86 architecture, assembly, and application
     2. [quick learn x86 assembly instructions] [QLAI]
     3. Appendix A -- PC hardware  <xv6 book>
     4. Appendix B -- The boot loader <xv6 book>
