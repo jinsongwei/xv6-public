@@ -18,6 +18,10 @@ Room: WCH 110.
     2. [quick learn x86 assembly instructions] [QLAI]
     3. Appendix A -- PC hardware  <xv6 book>
     4. Appendix B -- The boot loader <xv6 book>
+ * Lab 0.5  syscalls & scheduler 
+    1. implement a syscall int count(void) that counts number of syscall calls.
+    2. implement FIFO scheduler.
+    3. Read the book chapter 1.
     
  
 ---
