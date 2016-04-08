@@ -20,9 +20,11 @@ Room: WCH 110.
     4. Appendix B -- The boot loader <xv6 book>
  * Lab 0.5  syscalls & scheduler (Don't need to turn in anything)
     1. implement a syscall int count(void) that counts number of syscalls.
+        
         a. This syscall will return number of syscalls you called, from the begining of process started until to the calling 'count()'.
 
         b. First, you need to create a syscall. (related files: defs.h, syscall.h, syscall.c, sysfile.c sysproc.c, user.h, usys.S). If you don't know how to create one, find a syscall such as open(), and see how it created. 
+        
         c. Then, you need to implement it. You will change the some code in proc.h and proc.c
     2. explain what policy of scheduler uses in xv6.
     3. Read the book chapter 1.
