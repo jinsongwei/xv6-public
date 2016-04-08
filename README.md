@@ -26,7 +26,11 @@ Room: WCH 110.
         b. First, you need to create a syscall. (related files: defs.h, syscall.h, syscall.c, sysfile.c sysproc.c, user.h, usys.S). If you don't know how to create one, find a syscall such as open(), and see how it created. 
         
         c. Then, you need to implement it. You will change the some code in proc.h and proc.c
+        
+        d. Finally, you can create a user file and test your syscall count you just created. 
+        
     2. explain what policy of scheduler uses in xv6.
+    
     3. Read the book chapter 1.
     
  
