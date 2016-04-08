@@ -25,9 +25,9 @@ Room: WCH 110.
 
         b. First, you need to create a syscall. (related files: defs.h, syscall.h, syscall.c, sysfile.c sysproc.c, user.h, usys.S). If you don't know how to create one, find a syscall such as open(), and see how it created. 
         
-        c. Then, you need to implement it. You will change the some code in proc.h and proc.c
+        c. Then, you need to implement it. You will change some code in proc.h and proc.c. You can either implement it in sysfile.c or sysproc.c.
         
-        d. Finally, you can create a user file and test your syscall count you just created. 
+        d. Finally, you can create a user file and test your syscall count you just created. If you want to create your own user file, then you should add it in Makefile. You are also able to change the code in usertests.c and add 'count()' some place in main(). 
         
     2. explain what policy of scheduler uses in xv6.
     
