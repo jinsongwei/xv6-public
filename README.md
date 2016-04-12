@@ -97,9 +97,11 @@ $ kill -9 PID
 
 #### How to exit xv6 (faster)
   in the terminal that qemu is running, 
-  1. press ctl + A
-  2. press c
-  3. enter q
+  1. press 'CTL + A'
+  2. press 'C'
+  3. enter 'q'
+ 
+
 #### Best way to get xv6 source code
 ```sh
 $ git clone https://github.com/guilleiguaran/xv6.git
