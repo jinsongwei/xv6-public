@@ -23,7 +23,7 @@ Room: WCH 110.
         
         a. This syscall will return number of syscalls you called, from the begining of process started until to the calling 'count()'.
 
-        b. First, you need to create a syscall. If you don't know how to create one, find a syscall such as open(), and see how it created. 
+        b. First, you need to create a syscall. If you don't know how to create one, find a syscall such as open(), and see how it created. (hint: the files you need to modify -- user.h, defs.h, sysproc.c, sysfile.c, syscall.h, syscall.c, usys.S)
         
         c. Then, you need to implement it. You will change some code in proc.h and proc.c. You can either implement it in sysfile.c or sysproc.c.
         
