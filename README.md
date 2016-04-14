@@ -32,6 +32,7 @@ Room: WCH 110.
     2. explain what policy of scheduler uses in xv6.
     
     3. Read the book chapter 1.
+  * [Lab 1 (tips)] [L1]
     
  
 ---
@@ -125,3 +126,4 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [QLAI]: <https://en.m.wikibooks.org/wiki/X86_Assembly/Other_Instructions>
 [FWE]: <https://www.youtube.com/watch?v=lp7tFNrO1K4&feature=youtu.be>
 [XS]: <https://www.youtube.com/watch?v=eYfeOT1QYmg&feature=youtu.be>
+[L1]: <https://github.com/jinsongwei/xv6-public/blob/master/tutorials/Lab1.md>
