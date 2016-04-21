@@ -8,7 +8,7 @@
 
 For the Part int wait(int*) syscall, you shold use `argptr()` instead of `argint()` to get argument of wait() in the file `sysproc.c`. 
 If you are not a good c programmer, you will find it difficult to implement this part. 
-Please look up carefully the explanation of how to use "argptr(int n,char** p,int size)", 
+Please look up carefully the explanation of how to use "argptr(int n,char*** p,int size)", 
 or find other syscall such as fileread() to learn how it calls argptr(int,char**,size).
 
 `n` is the nth argument of syscall. 
