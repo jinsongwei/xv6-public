@@ -8,16 +8,23 @@ Room: WCH 110.
 
 ## resources
  * [class website] [CW]
+ 
  * [lab website] [LW]
+ 
  * [xv6 BOOK] [XB]   Important! Please Read!!!
+ 
  * [xv6 source code reference] [XS]
+ 
  * [Official xv6] [OX]
+ 
  * [GDB commands] [GC]
+ 
  * [Lab 0: PC booting] [LPC]
     1. [Intro x86, stack] [IS] -- nice video to introduce x86 architecture, assembly, and stack
     2. [quick learn x86 assembly instructions] [QLAI]
     3. Appendix A -- PC hardware  <xv6 book>
     4. Appendix B -- The boot loader <xv6 book>
+    5. 
  * Lab 0.5  syscalls & scheduler (Don't need to turn in anything)
     1. implement a syscall int count(void) that counts number of syscalls.
         
@@ -32,7 +39,6 @@ Room: WCH 110.
     2. explain what policy of scheduler uses in xv6.
     
     3. Read the book chapter 1.
-    
     
   * Lab 1
     1. [tips] [L1]
