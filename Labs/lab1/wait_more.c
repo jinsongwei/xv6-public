@@ -22,17 +22,22 @@ int main(int argc, char ** argv){
         if (pid == 0){
             int j = 0;
             while(j++ < 1000);
-            if(getpid() == 5) sleep(30);
+            if(getpid() == 5) sleep(50);
             
             printf(1,"pid = %d\n",getpid());
             if(getpid() == 10){
                 printf(1,"pid 10 waiting for 5\n");
                 int wpid = waitpid(5,&status,0);
-                printf(1,"success clean %d, status is %d\n",wpid,status);
+                printf(1,"success clean %d\n",wpid);
             }
-            if(getpid() == 5){
+            if(getpid() == 12){
+                printf(1,"pid 12 waiting for 5\n");
+                int wpid = waitpid(5,&status,0);
+                if(wpid == -1)
+                    printf(1,"no more waiting for 5\n");
+            }
+            if(getpid() == 5)
                 exit(5);
-            }
             exit(0);
         }
     }else if(pid == 0){
@@ -43,8 +48,8 @@ int main(int argc, char ** argv){
     int going = 1;
     while(going >= 0){
         going = wait(&status);
-        printf(1,"kill %d\n",going);
-    }
+        printf(1,"kill %d process\n",going);
+    };
     exit(0);
     return 0;
 }
