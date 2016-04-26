@@ -28,7 +28,7 @@ int main(int argc, char ** argv){
             if(getpid() == 10){
                 printf(1,"pid 10 waiting for 5\n");
                 int wpid = waitpid(5,&status,0);
-                printf(1,"success clean %d\n",wpid);
+                printf(1,"success clean %d, exit status is%d\n",wpid,status);
             }
             if(getpid() == 12){
                 printf(1,"pid 12 waiting for 5\n");
