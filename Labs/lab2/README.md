@@ -1,6 +1,6 @@
 # Lab2
 
-### here is the link to get source code
+### here is the link to get new version of xv6's source code
 
 https://github.com/jinsongwei/xv6_lab2.git
 
