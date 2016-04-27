@@ -44,7 +44,7 @@ Room: WCH 110.
     
 
 ---
-  * Lab 1
+  * [Lab 1] [L11]
     1. [tips] [L1]
     2. [test cases] [TC]
 
@@ -147,4 +147,4 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [L1]: <https://github.com/jinsongwei/xv6-public/blob/master/Labs/tips.md>
 [TC]: <https://github.com/jinsongwei/xv6-public/tree/master/Labs/lab1>
 [L2]: <https://github.com/jinsongwei/xv6-public/tree/master/Labs/lab2>
-
+[L11]: <http://www.cs.ucr.edu/~nael/cs153/labs/lab1.html>
