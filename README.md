@@ -40,12 +40,17 @@ Room: WCH 110.
         
     2. explain what policy of scheduler uses in xv6.
     
-    3. Read the book chapter 1.
+    3. Read the book chapter.
+    
 
- ---
-  * Lab 1
+---
+  * [Lab 1] [L11]
     1. [tips] [L1]
     2. [test cases] [TC]
+
+---
+  * [Lab 2] [L2]
+    
     
  
 ---
@@ -140,5 +145,6 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [FWE]: <https://www.youtube.com/watch?v=lp7tFNrO1K4&feature=youtu.be>
 [XS]: <https://www.youtube.com/watch?v=eYfeOT1QYmg&feature=youtu.be>
 [L1]: <https://github.com/jinsongwei/xv6-public/blob/master/Labs/tips.md>
-
-
+[TC]: <https://github.com/jinsongwei/xv6-public/tree/master/Labs/lab1>
+[L2]: <https://github.com/jinsongwei/xv6-public/tree/master/Labs/lab2>
+[L11]: <http://www.cs.ucr.edu/~nael/cs153/labs/lab1.html>
