@@ -20,16 +20,19 @@ First, you need to include ```"user.h"``` file.
 void *tid = thread_create(function, (void *)0);
 ```
 
-##### How to write thead calling function. Here is an example
+##### How to write thread calling function. Here is an example
 
 ```
 void function(void *arg_ptr)
 ```
 
+##### How to pass arguments as void pointer
+
+Before you call ```thread_create```, you should declear arguments such as int, char or struct, and pass the void pointer. For example, 
+```int arg``` and pass the address of integer ```thread_create(func, (void *)&arg)```. In the func, you can get the argument like this 
+```int * num = (int *)arg_ptr;``` and then you can use that integeter by deferencing it. For details, you can look up ```test.c```.
+
 ### Note
 
-I didn't implement passing-argument thread. Therefore, the thread_create always pass 0 argument of function. That means 
-```void function(void *arg_ptr)``` has always 0 arguments and return nothing. In real life, like unix, pthread is more powerful.
-For Lab2, I believe it is enough for you to implement concurrency problems using this thread library. 
-For more details, you should check two test files which is ```test.c``` and ```test1.c```. 
+There are three test cases -- test1.c, test2.c and test3.c. Please look up those files before you use thread library.
 
