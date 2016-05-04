@@ -51,6 +51,12 @@ Room: WCH 110.
 ---
   * [Lab 2] [L2]
     
+    Lab2 warm up:
+
+    1. How to use thread_create, look up the test files.
+    2. synchronization -- create a user program to implement game frisbee. 
+    3. page table -- know how exec() works (you will be asked in walkthrough doc for lab2)
+    
     
  
 ---
