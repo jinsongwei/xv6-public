@@ -54,7 +54,7 @@ Room: WCH 110.
     Lab2 warm up:
 
     1. How to use thread_create, look up the test files.
-    2. synchronization -- create a user program to implement game frisbee. 
+    2. synchronization -- create a user program to implement game frisbee (Create serveral threads, they will play throwing and catching a frisbee game. Frisbee is a global variable, so it needs a lock to be protected in critical section. Who gets the lock means who gets the frisbee and releasing the lock means that thread are throwing the frisbee. There will be one of others will catch frisbee. Implement this scenario ). 
     3. page table -- know how exec() works (you will be asked in walkthrough doc for lab2)
     
     
