@@ -103,6 +103,7 @@ in the terminal.
  * [xv6 syscalls] [SYSC]   ---  more detail tutorial. (eg: how to create a user file, how syscall works.).
  * [xv6 fork(), wait(), exec()] [FWE] --- play around with syscalls. 
  * [xv6 scheduler] [XS]  --- nice explanation of scheduler part. 
+ * [stack exec] [SE] --- explanation of stack and exec part. 
  
 ---
 ## Tips 
@@ -154,3 +155,4 @@ $ git clone https://github.com/guilleiguaran/xv6.git
 [TC]: <https://github.com/jinsongwei/xv6-public/tree/master/Labs/lab1>
 [L2]: <https://github.com/jinsongwei/xv6-public/tree/master/Labs/lab2>
 [L11]: <http://www.cs.ucr.edu/~nael/cs153/labs/lab1.html>
+[SE]: <https://www.youtube.com/watch?v=iSvga9h_YNs>
