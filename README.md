@@ -40,7 +40,7 @@ Room: WCH 110.
         
     2. explain what policy of scheduler uses in xv6.
     
-    3. Read the book chapter.
+    3. Read the book.
     
 
 ---
