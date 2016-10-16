@@ -1,4 +1,4 @@
-## tutorial setup git version control
+## tutorial to setup git version control
 
 If you would like to use git version control to work on your project with your partner or by yourself. Here is a brief tutorial to set up github.
 
