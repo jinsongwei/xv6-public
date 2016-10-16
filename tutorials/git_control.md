@@ -1,6 +1,6 @@
 ## tutorial to setup git version control
 
-If you would like to use git version control to work on your project with your partner or by yourself. Here is a brief tutorial to set up github.
+If you would like to use git version control to work on your project with your partner or by yourself. Here is a brief tutorial to set up.
 
 First, you need to have a github account.
 Don't forget request a discount using UCR email.  https://education.github.com/
@@ -14,7 +14,7 @@ After you create a repository of xv6, there are serveral modifications to enable
 2. in the xv6, you need to remove the .gitignore file
 ```$ rm .gitignore```
 
-3. open config file ```$ vim .git/config``` , in the file,  you need to  change ```url = https://github.com/guilleiguaran/xv6.git```
+3. open config file ```$ vim .git/config``` , in the file,  you need to change ```url = https://github.com/guilleiguaran/xv6.git```
 line to 
 ```
 url = https://<your_github_account>:<your_password>@github.com/<your_github_account>/xv6.git
