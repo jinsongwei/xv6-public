@@ -27,7 +27,7 @@ Room: WCH 110.
     4. Appendix B -- The boot loader <xv6 book>
 
 ---
- * Lab 0.5  syscalls & scheduler (Don't need to turn in anything)
+ * Lab 0.5  syscalls & scheduler (no require to submit anything)
     1. implement a syscall int count(void) that counts number of syscalls.
         
         a. This syscall will return number of syscalls you called, from the begining of process started until to the calling 'count()'.
